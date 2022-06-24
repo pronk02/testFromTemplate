@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "importHelpers": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "removeComments": false,
+    "module": "amd",
+    "target": "es5",
+    "watch": true,
+    "moduleResolution": "node",
+    "sourceMap": false,
+    "newLine": "LF",
+    "experimentalDecorators": true,
+    "noEmitOnError": false,
+    "noImplicitUseStrict": true,
+    "baseUrl": ".",
+    "lib": ["es5", "es2015.promise", "dom"],
+    "paths": {
+      "N": ["node_modules/@hitc/netsuite-types"],
+      "N/*": ["node_modules/@hitc/netsuite-types/N/*"],
+      "*": ["src/FileCabinet/SuiteScripts"]
+    }
+  },
+  "exclude": ["node_modules"]
+}
